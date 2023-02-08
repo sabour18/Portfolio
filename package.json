@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines":{
+    "node": "19.3.0"
+  },
   "bugs": {
     "url": "https://github.com/sabour18/Portfolio/issues"
   },
