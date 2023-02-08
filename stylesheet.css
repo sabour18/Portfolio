@@ -57,13 +57,21 @@ nav{
 }
 
 .fa-github{
-    margin-left: 2000%;
+    margin-left: 3000%;
+    color:gray;
+}
+
+.fa-github:hover{
     color: white;
 }
 
 .menu-item{
     display: inline;
-    margin-right: 4%;
+    margin: 0 2%;
+}
+
+.menu-link:hover{
+    color: gray;
 }
 
 footer{
