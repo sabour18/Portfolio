@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    color: white;
+    background-color:#071057;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.menu-link{
+    color: white;
+}
+
+
+.left{
+    
+}
+
+#name-title{
+    padding-left: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+}
+
+nav{
+    width: 100%;
+    font-size: 20px;
+}
+
+.menu{
+    margin: 0 40px;
+    padding-left: 0;
+    text-align:center;
+}
+
+.menu-item{
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    width: max-content;
+    height: 6000px;
+}
