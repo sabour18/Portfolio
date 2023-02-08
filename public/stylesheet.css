@@ -150,7 +150,28 @@ h2{
     color: white;
 }
 
+.about-me{
+    text-align: center;
+}
 
+#project-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project-card{
+    margin: 15px 0;
+    background-color: gray;
+    width: 300px;
+}
+
+.project-card img{
+    width: 300px;
+}
+
+.contact-me{
+    text-align: center;
+}
 
 
 @media only screen and (max-width:780px){
