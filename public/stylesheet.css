@@ -31,11 +31,11 @@ header{
     height: 100vh;
     background-image: url(images/mainBack.jpg);
     background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center
 }
 nav{
     font-size: 20px;
@@ -216,7 +216,7 @@ footer{
 @media only screen and (max-width:780px){
 #name-title{
     position: absolute;
-    top: 42px;
+    top: 30px;
     left: 90px;
 }
 
