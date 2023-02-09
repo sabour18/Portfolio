@@ -151,12 +151,12 @@ h2{
     color: white;
 }
 
-.about-me{
+#about-me{
     margin: 50px 10px;
     text-align: center;
 }
 
-.projects{
+#projects{
     padding: 0 100px;
 }
 
@@ -188,7 +188,7 @@ h2{
     padding: 0 8px 8px 8px;
 }
 
-.contact-me{
+#contact-me{
     text-align: center;
 }
 
