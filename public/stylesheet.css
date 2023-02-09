@@ -161,7 +161,9 @@ h2{
     flex-wrap: wrap;
 }
 .project-card{
-    margin: 15px 0;
+    margin: 15px 15px;
+    padding: 5px;
+    border-radius: 6px;
     background-color: gray;
     width: 300px;
 }
