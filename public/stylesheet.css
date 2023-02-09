@@ -151,25 +151,33 @@ h2{
     text-align: center;
 }
 
+.projects{
+    padding: 0 100px;
+    background: rgb(23,23,23);
+    background: linear-gradient(0deg, rgba(23,23,23,1) 27%, rgba(1,14,77,1) 63%, rgba(23,23,23,1) 87%);
+
+}
+
 #project-list{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background: rgb(23,23,23);
-    background: linear-gradient(0deg, rgba(23,23,23,1) 27%, rgba(1,14,77,1) 63%, rgba(23,23,23,1) 87%);
 }
+
 .project-card{
-    margin: 15px 15px;
-    padding: 5px;
-    border-radius: 6px;
+    margin: 15px 8px;
+    padding: 0 0 5px 0;
+    border-radius: 8px;
     border: #171717 solid 3px;
     background: rgb(189,189,189);
     background: radial-gradient(circle, rgba(189,189,189,1) 0%, rgba(88,88,88,1) 100%);
-    width: 300px;
+    width: 350px;
 }
 
 .project-card img{
-    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 350px;
 }
 
 .contact-me{
