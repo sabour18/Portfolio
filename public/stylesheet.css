@@ -162,7 +162,9 @@ h2{
     margin: 15px 15px;
     padding: 5px;
     border-radius: 6px;
-    background-color: gray;
+    border: #171717 solid 3px;
+    background: rgb(189,189,189);
+    background: radial-gradient(circle, rgba(189,189,189,1) 0%, rgba(88,88,88,1) 100%);
     width: 300px;
 }
 
