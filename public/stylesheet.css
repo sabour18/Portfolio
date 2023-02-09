@@ -154,9 +154,10 @@ h2{
 /*** ABOut ME SECTION ***/
 
 #about-me{
-    margin: 100px 10px 150px 10px;
+    margin: 100px 5px 10px 10px;
     text-align: center;
 }
+
 
 .about-me-content{
     display: flex;
@@ -167,7 +168,7 @@ h2{
 
 #me-img{
     border-radius: 100px;
-    padding: 20px;
+    padding: 5%;
     width: 150px;
 }
 
@@ -176,7 +177,7 @@ h2{
 }
 
 #projects{
-    margin-top: 290px;
+    margin-top: 210px;
     margin-bottom:  300px;
     padding: 0 100px;
 }
@@ -317,7 +318,9 @@ footer{
     .menu__item:hover {
         background-color: #CFD8DC;
     }
-
+    .about-me-content{
+        justify-content: center;
+    }
     #projects{
         width: 100%;
         padding: 0;
