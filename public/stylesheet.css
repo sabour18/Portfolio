@@ -151,12 +151,33 @@ h2{
     color: white;
 }
 
+/*** ABOut ME SECTION ***/
+
 #about-me{
-    margin: 50px 10px;
+    margin: 100px 10px 150px 10px;
     text-align: center;
 }
 
+.about-me-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#me-img{
+    border-radius: 100px;
+    padding: 20px;
+    width: 150px;
+}
+
+#description{
+    width: 70%;
+}
+
 #projects{
+    margin-top: 290px;
+    margin-bottom:  300px;
     padding: 0 100px;
 }
 
@@ -193,7 +214,7 @@ h2{
 }
 
 footer{
-    height: 6000px;
+    height: 60px;
     width: 100%;
 }
 
