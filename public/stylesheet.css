@@ -23,7 +23,8 @@ a{
 }
 
 header{
-    width: 99vw ;
+    margin: auto;
+    width: 97vw ;
     height: 100vh;
     background-image: url(images/mainBack.jpg);
     background-repeat:no-repeat;
@@ -94,7 +95,9 @@ nav{
 
 #main-p{
     font-size: 2.5vw;
+    padding: 0;
 }
+
 
 
 /*** NAVIGATION ARROWS ***/
@@ -154,7 +157,7 @@ h2{
 /*** ABOut ME SECTION ***/
 
 #about-me{
-    margin: 100px 5px 10px 10px;
+    margin: 100px 1px 10px 1px;
     text-align: center;
 }
 
@@ -179,7 +182,6 @@ h2{
 #projects{
     margin-top: 210px;
     margin-bottom:  300px;
-    padding: 0 100px;
 }
 
 #project-list{
@@ -212,12 +214,10 @@ h2{
 
 #contact-me{
     text-align: center;
+    margin: auto;
+    width: 30%;
 }
 
-footer{
-    height: 60px;
-    width: 100%;
-}
 
 .zoom {
     transition: transform .2s; /* Animation */
