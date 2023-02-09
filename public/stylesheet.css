@@ -32,7 +32,7 @@ header{
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    background-position:center
+    background-position:center;
 }
 nav{
     font-size: 20px;
@@ -176,6 +176,7 @@ h2{
 }
 
 #description{
+    line-height: 25px;
     width: 70%;
 }
 
