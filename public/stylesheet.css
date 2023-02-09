@@ -6,6 +6,7 @@
 
 html{
     height: 100%;
+    width: 100%;
 }
 
 body{
@@ -155,37 +156,36 @@ h2{
     padding: 0 100px;
     background: rgb(23,23,23);
     background: linear-gradient(0deg, rgba(23,23,23,1) 27%, rgba(1,14,77,1) 63%, rgba(23,23,23,1) 87%);
-
 }
 
 #project-list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .project-card{
-    margin: 15px 8px;
-    padding: 0 0 5px 0;
-    border-radius: 8px;
+    margin: 12px 0;
+    border-radius: 12px;
     border: #171717 solid 3px;
     background: rgb(189,189,189);
     background: radial-gradient(circle, rgba(189,189,189,1) 0%, rgba(88,88,88,1) 100%);
-    width: 350px;
+    width: 30%;
 }
 
-.project-card img{
+.card-img{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    width: 350px;
+    width: 100%;
 }
+
 
 .contact-me{
     text-align: center;
 }
 
 footer{
-    width: max-content;
     height: 6000px;
     width: 100%;
     background: rgb(1,14,77);
@@ -204,12 +204,14 @@ footer{
     cursor: pointer;
 }
 
+
 @media only screen and (max-width:780px){
 #name-title{
     position: absolute;
     top: 42px;
     left: 90px;
 }
+
     .menu-main{
         display: none;
     }
@@ -289,4 +291,13 @@ footer{
     .menu__item:hover {
         background-color: #CFD8DC;
     }
+
+    .projects{
+        padding: 0;
+    }
+
+    .project-card{
+        width: 90%;
+    }
+
 }
