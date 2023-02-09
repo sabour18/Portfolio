@@ -179,15 +179,22 @@ h2{
     border: #171717 solid 3px;
     background: rgb(189,189,189);
     background: radial-gradient(circle, rgba(189,189,189,1) 0%, rgba(88,88,88,1) 100%);
-    width: 30%;
+    width: 40%;
+    height: fit-content;
 }
 
 .card-img{
+    position: relative;
+    right: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    width: 100%;
+    width: calc(100% + 16px);
+    height: auto;
 }
 
+.card-text{
+    padding: 0 8px 8px 8px;
+}
 
 .contact-me{
     text-align: center;
