@@ -328,6 +328,10 @@ h2{
         padding: 0;
     }
 
+    #projects h2{
+        padding-left: 15px;
+    }
+
     #project-list{
         text-align: center;
         margin: 10px auto;
