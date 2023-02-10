@@ -182,7 +182,7 @@ h2{
 
 #projects{
     margin-top: 210px;
-    margin-bottom:  300px;
+    margin-bottom:  200px;
 }
 
 #project-list{
@@ -219,7 +219,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     height: 100px;
-    
+    padding-bottom: 50px;
 }
 
 .contact-email{
