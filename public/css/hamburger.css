@@ -117,9 +117,9 @@
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 50vw;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 50px 50px 10px 50px;
   padding-top: 125px;
   
   background: #7b7b7b;
@@ -135,7 +135,7 @@
 
 #menu li
 {
-  width: 347px;
+  width: 50vw;
   margin-left: -40px;
   border-top: #232323 2px solid;
   padding: 10px 0;
