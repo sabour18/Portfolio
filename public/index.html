@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -14,17 +16,19 @@
 </head>
 <body>
     <header>
-        <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-                <span></span>
-            </label>
-        
-            <ul class="menu__box">
-                <li><a class="menu__item" href="#">// home</a></li>
-                <li><a class="menu__item" href="#about-me">// about</a></li>
-                <li><a class="menu__item" href="#projects">// projects</a></li>
-                <li><a class="menu__item" href="#contact-me">// contact</a></li>
+        <nav role="navigation">
+            <div id="menuToggle">
+
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <li><a href="#about-me">//about</a></li>
+                <li><a href="#projects">//projects</a></li>
+                <li><a href="#contact-me">//contact</a></li>
             </ul>
         </div>
 
