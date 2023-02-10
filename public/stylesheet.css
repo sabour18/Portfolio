@@ -167,6 +167,7 @@ h2{
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #me-img{
@@ -183,6 +184,11 @@ h2{
 #projects{
     margin-top: 210px;
     margin-bottom:  200px;
+}
+
+#projects h2{
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #project-list{
