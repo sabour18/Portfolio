@@ -13,8 +13,20 @@ app.use(express.static(__dirname + "/public"));
 
 let pizza = {
     name: "Pizza Place",
-    description: "A make your own pizza site",
+    description: "A customize your pizza site",
     access: "pizza"
+};
+
+let todo = {
+    name: "To Do Lists",
+    description: "Make and cusomize to do lists",
+    access: "todo"
+};
+
+let secrets = {
+    name: "Secrets",
+    description: "Post anonymous secrets",
+    access: "secrets"
 };
 
 
@@ -23,8 +35,9 @@ app.get("/projects/:customProjectName", function(req, res){
     const customProjectName = _.capitalize(req.params.customProjectName);
 
     let current = "";
-    if(customProjectName === "Pizzaplace"){
-        current = pizza;
+    if(customProjectName === "Pizzaplace"){current = pizza;
+    }else if(customProjectName === "Todolist"){current = todo;
+    }else if(customProjectName === "Secrets"){current = secrets;
     }
     res.render("project", {project: current})
 });
