@@ -2,14 +2,15 @@
 
 <p>Project pages are a work in progess...</p>
 
-<a href="/">Home</a>
-<h1><%= project.name %></h1>
+<a href="/">Home</a> > <a href="/#projects">Projects</a> > <%= project.name %>
+<h1 id="title"><%= project.name %></h1>
 
-<p><%= project.description %></p>
+<p id="description"><%= project.description %></p>
+<hr>
 
-<img class="image" src="/images/<%= project.access %>1.png">
-<img class="image" src="/images/<%= project.access %>2.png">
-<img class="image" src="/images/<%= project.access %>3.png">
+<img class="image desktop" src="/images/<%= project.access %>1.png">
+<img class="image desktop" src="/images/<%= project.access %>2.png">
+<img class="image mobile" src="/images/<%= project.access %>3.png">
 
 
 

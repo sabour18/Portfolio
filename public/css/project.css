@@ -1,5 +1,18 @@
 body{
+padding: 20px;
+}
 
+#title{
+    padding: 10px 0;
+    font-size: 3rem;
+}
+
+#description{
+padding: 10px 0;
+}
+
+hr{
+    margin: 20px 0;
 }
 
 .image{
