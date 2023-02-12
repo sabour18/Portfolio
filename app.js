@@ -11,14 +11,22 @@ app.use(express.static(__dirname + "/public"));
 
 
 
-
+let pizza = {
+    name: "Pizza Place",
+    description: "A make your own pizza site",
+    access: "pizza"
+};
 
 
 app.get("/projects/:customProjectName", function(req, res){
 
     const customProjectName = _.capitalize(req.params.customProjectName);
 
-    res.render("project", {name: customProjectName})
+    let current = "";
+    if(customProjectName === "Pizzaplace"){
+        current = pizza;
+    }
+    res.render("project", {project: current})
 });
 
 
