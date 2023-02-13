@@ -180,9 +180,13 @@ h2{
     line-height: 25px;
     width: 70%;
 }
+
+
+
+
 #skill{
     padding: 0 30px;
-    padding-top: 40px;
+    padding-top: 100px;
     text-align: center;
 }
 #skill h2{
@@ -195,15 +199,19 @@ h2{
     justify-content:space-evenly;
 }
 
-
-
-
-
+#skill-list li{
+    padding: 5px 10px;
+}
 
 .tech-logo{
-    width: 50px;
+    width: 130px;
     height: auto;
 }
+
+
+
+
+
 
 #projects{
     margin-top: 210px;
@@ -306,4 +314,8 @@ h2{
         margin: 25px 0;
     }
 
+    .tech-logo{
+        width: 50px;
+        height: auto;
+    }
 }
