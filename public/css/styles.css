@@ -33,6 +33,7 @@ header{
     -o-background-size:cover;
     background-size:cover;
     background-position:center;
+    
 }
 nav{
     font-size: 20px;
@@ -41,6 +42,11 @@ nav{
 /*** TOP NAV BAR ***/
 
 .head-top{
+    background-color:rgb(35, 32, 32, 0.95); 
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .menu-link{
@@ -154,7 +160,7 @@ h2{
     color: white;
 }
 
-/*** ABOut ME SECTION ***/
+/*** About ME SECTION ***/
 
 #about-me{
     margin: 100px 1px 10px 1px;
