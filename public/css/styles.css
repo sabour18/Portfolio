@@ -63,7 +63,7 @@ nav{
 
 .menu-main{
     display: flex;
-    width: 70%;
+    width: fit-content;
     margin: auto;
     justify-content: space-between;
     height: 100%;
@@ -71,7 +71,8 @@ nav{
 }
 
 .menu-item{
-    margin: 0 15px;
+    margin: 0 3vw;
+    padding: 0 ;
 }
 
 .fa-github{
@@ -288,9 +289,15 @@ h2{
     cursor: pointer;
 }
 
+@media only screen and (max-width:990px){
+    #name-title{
+        display: none;
+    }
+}
 
 @media only screen and (max-width:767px){
 #name-title{
+    display: block;
     margin-left: 110px;
     margin-top: -10px;
     width: max-content;
